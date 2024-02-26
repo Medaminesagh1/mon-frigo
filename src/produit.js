@@ -25,7 +25,7 @@ export default class Produit {
       this._qte=qte;
     }
     pourAfficher() {
-      return `${this._nom} (quantité:${this._qte})`;
+      return `${this._nom}(quantité:${this._qte})`;
     }
   }
   
