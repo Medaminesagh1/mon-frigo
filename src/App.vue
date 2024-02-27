@@ -1,6 +1,7 @@
 <script setup>
   import MonFrigoHeader from './components/MonFrigoHeader.vue';
   import ProductList from './components/ProductList.vue';
+  import MonFrigoFooter from './components/MonFrigoFooter.vue';
 </script>
 <template>
   <v-app>
@@ -9,6 +10,7 @@
 <div class="product-list-container">
   <ProductList></ProductList>
   </div>
+  <MonFrigoFooter></MonFrigoFooter>
 
     </v-main>
   </v-app>
